@@ -4,17 +4,22 @@ My name is Marco, I am from Poland and I'm an aspiring software engineer!
 
 ## ✨ Current project ✨
 
-I’m currently working on my engineering thesis! (which I sadly have to keep in a private repository until the thesis defense 😞)
+I'm working on a project using Spring, which simplifies searching for items on the [Steam Marketplace](https://steamcommunity.com/market/).
 
-It's a mobile application based on **Flutter**, which allows you to browse and search for recipes, add them to your favorites, manage your fridge content, and allows for searching the database for recipes including chosen ingredients. 
+Currently, it allows to search a specific item and can display informations about the current price, median and volume sold in the last 24 hours.
+It also can scan the entire market and collect the informations about the items in a table. The entire CS:GO marketplace has currently about 20500 items and the API used to get the information has a request limit, so the scanning is done asynchronously.
+
+I'm planning to add multiple new features, like for example portfolios (ability to scan multiple items at once, get their price, and multiply that by the amount of items the user currently owns), user inventories (scans the inventory from the user, and shows total value) and a user interface for easier access to the endpoints.
+
+Recently, I've also finished my engineering thesis. It's a mobile application based on **Flutter**, which allows you to browse and search for recipes, add them to your favorites, manage your fridge content, and allows for searching the database for recipes including chosen ingredients. 
   
 The recipes on the application are on two different locations: my own **Firebase NoSQL database**, and pulled from the **Spoonacular API**. They are pulled from both locations, and unified in one DTO in a **Spring Boot API** to allow for easy display on the application.
 
-I'm also planning to do a personal project using Kotlin and Spring in the near future.
-
 ## ❄️ Current focus ❄️
-My main focus is to finish my thesis, and in the meantime find an opportunity to help me grow my development skills in an actual project.
-In my free time I also try to hone my skills. One of the skills I'm looking forward to improving is learning about testing (JUnit, TDD, etc.)
+My main focus currently is to learn the fundamentals of Spring and studying the ins and outs of the Java language.
+In my free time I also try to hone my skills. In my latest project, steam-portfolio, I've had my first experience doing unit tests using JUnit. I'd also like to learn more about Mockito in the near future.
+
+I've also been using [LeetCode](https://leetcode.com/Deltoh/) to solve algorithmic problems, which is a pretty fun activity to do in my spare time.
 
 ## ⭐ Technologies ⭐
 [![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?title=Actively%20using&borderRadius=5&fontSize=24&lineHeight=8&lineCount=3&theme=github_dark&hideBg=true&line1=flutter,Flutter,02569B;postgresql,PostgreSQL,4169E1;firebase,Firebase,FFCA28;&line2=coffeescript,Java,F80000;spring,Spring,6DB33F;springboot,Spring%20Boot,6DB33F;&line3=git,Git,F05032;github,Github,464e67;figma,Figma,F24E1E;)](https://github-readme-tech-stack.vercel.app/api/cards?title=Actively%20using&borderRadius=5&fontSize=24&lineHeight=8&lineCount=3&theme=github_dark&hideBg=true&line1=flutter,Flutter,02569B;postgresql,PostgreSQL,4169E1;firebase,Firebase,FFCA28;&line2=coffeescript,Java,F80000;spring,Spring,6DB33F;springboot,Spring%20Boot,6DB33F;&line3=git,Git,F05032;github,Github,464e67;figma,Figma,F24E1E;)
